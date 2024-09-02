@@ -1,0 +1,4 @@
+การ build
+ขั้นตอนแรกไปที่ file ของ vue ชื่อ package.json 
+เปลี่ยนจาก build ให้เพิ่ม --dest=.../ชื่อโฟเดอร์ที่ต้อง
+"build": "vue-cli-service build --dest=../backend/www",
